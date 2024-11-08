@@ -2,26 +2,26 @@
 
 ## Presentation
 
-[Kobe - Presentation](https://www.figma.com/slides/tmOQDZXXDg6shYu2XgL9BQ/kobe-deck-solana?node-id=1-305&node-type=slide)
+[Kobe - Presentation](https://www.figma.com/slides/bGfjLNlSJgGQcs4P6Xn5fS/kobe-deck-edge-city?node-id=1-582&t=vxGkafoHNOwAcDIC-1)
 
-[Video introducing Kobe](https://www.youtube.com/watch?v=zvIfosxRu8A)
+[Video introducing Kobe]([https://www.youtube.com/watch?v=zvIfosxRu8A](https://www.youtube.com/watch?v=TwV7pMG93T0))
 
 ## Description
 
 This project is a developer tool designed for the blockchain ecosystem, powered by Large Language Models (LLMs). The tool provides a seamless interface for developers to interact with the model, offering a range of features to enhance the blockchain development experience. Whether you're generating code, testing it, compiling, deploying, or seeking the latest information in the blockchain space, this tool has you covered.
 
-With Kobe, anyone can automate the creation and development of a smart contract, from generation to deployment on Solana, all within one environment.
+With Kobe, anyone can automate the creation and development of a smart contract, from generation to deployment on Arbitrum, all within one environment.
 
 ## Features
 
-- **Smart Contract Generation**: Automatically generates contracts for Solana using artificial intelligence.
+- **Smart Contract Generation**: Automatically generates contracts for Arbitrum using artificial intelligence.
 - **Testing and Validation**: Validates and tests the generated smart contracts before deployment.
-- **Compilation and Deployment**: Compiles and deploys contracts directly onto the Solana blockchain from the tool.
+- **Compilation and Deployment**: Compiles and deploys contracts directly onto the Arbitrum blockchain from the tool.
 - **Real-Time Information**: Access the latest blockchain updates through Retrieval-Augmented Generation (RAG) technologies, ensuring you're always up-to-date.
 
 ## Installation
 
-To generate, compile, and deploy contracts on the Solana blockchain using Kobe, follow these steps:
+To generate, compile, and deploy contracts on the Arbitrum blockchain using Kobe, follow these steps:
 
 ### Prerequisites for using Kobe
 
@@ -39,14 +39,7 @@ Make sure you have the following tools installed on your system:
      npm install -g yarn
      ```
 
-3. **Solana CLI**: Required to interact with the Solana blockchain, including compiling and deploying Rust-based smart contracts.
-   - Install Solana CLI by running:
-     ```bash
-     sh -c "$(curl -sSfL https://release.solana.com/v1.14.17/install)"
-     ```
-     More details can be found in the official documentation: [Solana CLI - download](https://docs.solana.com/cli/install-solana-cli-tools).
-
-4. **Rust**: Ensure that the Rust compiler is available in your environment, as Solana smart contracts are written in Rust.
+3. **Rust**: Ensure that the Rust compiler is available in your environment, as Solana smart contracts are written in Rust.
    - Install Rust by running:
      ```bash
      curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -56,10 +49,6 @@ Make sure you have the following tools installed on your system:
      rustc --version
      ```
      For more information, check the official [Rust installation guide](https://www.rust-lang.org/tools/install).
-
-5. **Anchor Framework**: Anchor simplifies Solana smart contract development. You can install Anchor with:
-   ```bash
-   cargo install --git https://github.com/project-serum/anchor anchor-cli --locked
 
 
 ### Installation Steps
@@ -87,7 +76,7 @@ Kobe is powered by large language models (LLMs). Therefore, it is necessary to p
 
 ### Disclaimer
 
-If you do not wish to use the RAG functionality (which helps keep you updated with the latest Solana developments), you can comment out or remove the following code snippet in the file `backend/ragBranch/index.js`:
+If you do not wish to use the RAG functionality (which helps keep you updated with the latest Arbitrum developments), you can comment out or remove the following code snippet in the file `backend/ragBranch/index.js`:
 
 ```javascript
 const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY;
@@ -100,9 +89,9 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 ## External Resources
 
-This project leverages the power of the Solana blockchain to generate, compile, and deploy smart contracts using the Rust language quickly, securely, and efficiently.
+This project leverages the power of the Arbitrum blockchain to generate, compile, and deploy smart contracts using the Rust language quickly, securely, and efficiently.
 
 ## User Conversations Data
 
 We are committed to protecting user data. All information generated in conversations is handled securely and will never be shared.
-# Kobe-Solana-main-2
+
