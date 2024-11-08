@@ -4,7 +4,7 @@
 
 [Kobe - Presentation](https://www.figma.com/slides/bGfjLNlSJgGQcs4P6Xn5fS/kobe-deck-edge-city?node-id=1-582&t=vxGkafoHNOwAcDIC-1)
 
-[Video introducing Kobe]([https://www.youtube.com/watch?v=zvIfosxRu8A](https://www.youtube.com/watch?v=TwV7pMG93T0))
+[Video introducing Kobe](https://www.youtube.com/watch?v=TwV7pMG93T0)
 
 ## Description
 
